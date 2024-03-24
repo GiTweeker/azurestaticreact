@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-swa": "swa start build --api-location api",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -30,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^1.1.7"
   }
 }
